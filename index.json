@@ -1,0 +1,48 @@
+{
+    "aliases": {
+        "loyalty": "sylius/loyalty-plugin",
+        "multi-source-inventory": "sylius/multi-source-inventory-plugin",
+        "multisourceinventory": "sylius/multi-source-inventory-plugin",
+        "multistore": "sylius/multi-store-plugin",
+        "partial-shipment": "sylius/partial-shipment-plugin",
+        "partialshipment": "sylius/partial-shipment-plugin",
+        "rbac": "sylius/plus-rbac-plugin",
+        "return": "sylius/return-plugin",
+        "returns": "sylius/return-plugin"
+    },
+    "recipes": {
+        "sylius/core-bundle": [
+            "1.12"
+        ],
+        "sylius/loyalty-plugin": [
+            "0.1"
+        ],
+        "sylius/multi-source-inventory-plugin": [
+            "0.1"
+        ],
+        "sylius/multi-store-plugin": [
+            "0.2"
+        ],
+        "sylius/partial-shipment-plugin": [
+            "0.1"
+        ],
+        "sylius/plus-rbac-plugin": [
+            "0.1"
+        ],
+        "sylius/return-plugin": [
+            "0.1"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "main",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/jakubtobiasz/SyliusRecipes",
+        "origin_template": "{package}:{version}@github.com/jakubtobiasz/SyliusRecipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/jakubtobiasz/SyliusRecipes/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/jakubtobiasz/SyliusRecipes/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}

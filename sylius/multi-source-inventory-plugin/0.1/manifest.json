@@ -1,9 +1,0 @@
-{
-    "aliases": ["multi-source-inventory"],
-    "bundles": {
-        "Sylius\\MultiSourceInventoryPlugin\\SyliusMultiSourceInventoryPlugin": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}

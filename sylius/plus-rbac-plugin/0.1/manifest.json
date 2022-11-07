@@ -1,9 +1,0 @@
-{
-    "aliases": ["rbac"],
-    "bundles": {
-        "Sylius\\PlusRbacPlugin\\SyliusPlusRbacPlugin": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    }
-}
