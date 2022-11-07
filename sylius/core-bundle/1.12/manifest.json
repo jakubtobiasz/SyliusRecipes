@@ -1,0 +1,9 @@
+{
+    "bundles": {
+        "Sylius\\Bundle\\CoreBundle\\SyliusCoreBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%",
+        "public/": "%PUBLIC_DIR%/"
+    }
+}
